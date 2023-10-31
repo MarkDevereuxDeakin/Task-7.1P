@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const MQTT_BROKER_URL = 'mqtt://broker.hivemq.com:1883';
 const MQTT_TOPIC = 'Smart_Lighting_In_Hotel';
 
-const MONGO_URI = 'mongodb+srv://markdevereux:wYzWRbrMVjf9v6a@sit314.pluuj6f.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URI = 'mongodb+srv://<username>:<password>@sit314.pluuj6f.mongodb.net/?retryWrites=true&w=majority';
 const ALERT_BROKEN = 1; // Set your desired threshold for light intensity
 
 const MQTTClient = mqtt.connect(MQTT_BROKER_URL);
